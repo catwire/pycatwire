@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "21947571fa0ab5b97fa0b899a460462462247938236c114fee27ee2bc1cdbcfd"
+            "sha256": "9edc1c4e4a349840be3c66fdcbe5c912c039857cac05a3e99ce198fe860856e3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -22,6 +22,10 @@
             ],
             "index": "pypi",
             "version": "==0.8"
+        },
+        "pycatwire": {
+            "path": ".",
+            "version": "==0.0.1"
         }
     },
     "develop": {}
