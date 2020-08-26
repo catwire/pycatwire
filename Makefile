@@ -1,4 +1,4 @@
-update:
+reset:
 	git submodule update catalog
 
 catwire/ble_pdu_adv.py:
@@ -7,7 +7,7 @@ catwire/ble_pdu_adv.py:
 install: catwire/ble_pdu_adv.py
 	pipenv install .
 
-all: clean update install
+all: clean install
 .PHONY: all
 
 clean:
