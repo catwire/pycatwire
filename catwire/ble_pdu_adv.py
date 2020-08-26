@@ -7,8 +7,8 @@ from kaitaistruct import __version__ as ks_version, KaitaiStruct, KaitaiStream, 
 if parse_version(ks_version) < parse_version('0.7'):
     raise Exception("Incompatible Kaitai Struct Python API: 0.7 or later is required, but you have %s" % (ks_version))
 
-from microsoft import Microsoft
-from apple import Apple
+from catwire.microsoft import Microsoft
+from catwire.apple import Apple
 class BlePduAdv(KaitaiStruct):
     def __init__(self, _io, _parent=None, _root=None):
         self._io = _io
