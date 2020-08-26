@@ -10,4 +10,3 @@ kaitaistruct = "*"
 pycatwire = {path = "."}
 
 [requires]
-python_version = "3.8"
