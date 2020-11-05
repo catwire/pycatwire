@@ -1,3 +1,0 @@
-[submodule "catalog"]
-	path = catalog
-	url = git@github.com:catwire/catwire.git
